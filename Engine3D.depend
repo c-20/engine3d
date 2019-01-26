@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1548529760 source:c:\documents and settings\xp\desktop\engine3d\engine3d.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<math.h>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	"NeHeGL.h"
+	"GenLib.h"
+	"FileHandler.h"
+	"GenLib.cpp.h"
+	"FileHandler.cpp.h"
+	"NeHeGL.cpp.h"
+
+1548421986 c:\documents and settings\xp\desktop\engine3d\glaux.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1548473435 c:\documents and settings\xp\desktop\engine3d\nehegl.h
+
+1548509108 c:\documents and settings\xp\desktop\engine3d\filehandler.h
+
+1548529414 c:\documents and settings\xp\desktop\engine3d\genlib.h
+
+1548473524 c:\documents and settings\xp\desktop\engine3d\physlib.h
+
+1548469598 source:c:\documents and settings\xp\desktop\engine3d\filehandler.cpp
+	"FileHandler.h"
+
+1548467870 source:c:\documents and settings\xp\desktop\engine3d\genlib.cpp
+	<math.h>
+	"GenLib.h"
+
+1548460915 source:c:\documents and settings\xp\desktop\engine3d\nehegl.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"NeHeGL.h"
+
+1548471519 c:\documents and settings\xp\desktop\engine3d\genlib.hs
+
+1548471544 c:\documents and settings\xp\desktop\engine3d\filehandler.hs
+
+1548472839 c:\documents and settings\xp\desktop\engine3d\genlib.c.h
+
+1548471544 c:\documents and settings\xp\desktop\engine3d\filehandler.c.h
+
+1548472839 c:\documents and settings\xp\desktop\engine3d\genlib.cpp.h
+
+1548529423 c:\documents and settings\xp\desktop\engine3d\filehandler.cpp.h
+
+1548473321 c:\documents and settings\xp\desktop\engine3d\nehegl.cpp.h
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Engine3D" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Engine3D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Engine3D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="." />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add directory="." />
+		</Linker>
+		<Unit filename="Engine3D.cpp" />
+		<Unit filename="FileHandler.cpp.h" />
+		<Unit filename="FileHandler.h" />
+		<Unit filename="GenLib.cpp.h" />
+		<Unit filename="GenLib.h" />
+		<Unit filename="NeHeGL.cpp.h" />
+		<Unit filename="NeHeGL.h" />
+		<Unit filename="bluerock.bmp" />
+		<Unit filename="crate.bmp" />
+		<Unit filename="objects.vjs" />
+		<Unit filename="rock.bmp" />
+		<Unit filename="sand.bmp" />
+		<Unit filename="terrain.bmp" />
+		<Unit filename="terrain.vec" />
+		<Unit filename="world.lvl" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
